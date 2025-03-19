@@ -1,0 +1,8 @@
+[package]
+name = "jam"
+description = "June's Amazing Markup language"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+
+[dependencies]

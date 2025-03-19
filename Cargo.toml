@@ -1,6 +1,10 @@
-[package]
-name = "jam"
+[workspace]
+members = ["crates/*"]
+
+[workspace.package]
 version = "0.1.0"
+authors = ["June Bergeron <jrbergeron823@gmail.com>"]
 edition = "2021"
 
-[dependencies]
+[workspace.dependencies]
+jam = { path = "crates/jam" }
