@@ -5,6 +5,7 @@ members = ["crates/*"]
 version = "0.1.0"
 authors = ["June Bergeron <jrbergeron823@gmail.com>"]
 edition = "2021"
+license = "MIT"
 
 [workspace.dependencies]
 jam = { path = "crates/jam" }
